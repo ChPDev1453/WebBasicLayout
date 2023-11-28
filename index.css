@@ -1,0 +1,49 @@
+header {
+  float: left;
+  border-style: solid;
+}
+
+header .logo {}
+
+nav {
+  float: right;
+  border-style: solid;
+}
+
+footer .layout-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-style: solid;
+}
+
+
+
+.topnavbar {
+  width: 100%;
+  /* i'm assuming full width */
+  height: 40px;
+  /* change it to desired width */
+  background-color: red;
+  /* change to desired color */
+}
+
+a .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  margin-top: 5px;
+  /* if you want it vertically middle of the navbar. */
+}
+
+.topnavbar>a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 40px;
+  /* if you want it to take the full height of the bar */
+  line-height: 60px;
+  /* if you want it vertically middle of the navbar */
+}
